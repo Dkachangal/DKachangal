@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
+  <style>
+    .orbit { fill: none; stroke: #e1e4e8; stroke-width: 1; stroke-dasharray: 4 6; }
+    .dot { stroke-linecap: round; }
+  </style>
+
+  <!-- Card Background to match GitHub Stats -->
+  <rect x="0.5" y="0.5" rx="4.5" width="494" height="194" fill="#ffffff" stroke="#e4e2e2" />
+
+  <!-- Tiny Background Stars (Dots) -->
+  <g fill="#d0d7de">
+      <circle cx="30" cy="40" r="1"/> <circle cx="90" cy="160" r="0.5"/>
+      <circle cx="160" cy="25" r="1.5"/> <circle cx="230" cy="170" r="1"/>
+      <circle cx="310" cy="35" r="0.5"/> <circle cx="390" cy="175" r="1.2"/>
+      <circle cx="460" cy="25" r="0.8"/> <circle cx="485" cy="140" r="1"/>
+      <circle cx="280" cy="100" r="0.5"/> <circle cx="360" cy="120" r="1"/>
+      <circle cx="120" cy="175" r="1" fill="#ffc0cb"/>
+      <circle cx="410" cy="60" r="1" fill="#add8e6"/>
+  </g>
+
+  <!-- Dotted Orbits -->
+  <circle cx="50" cy="97.5" r="35" class="orbit" />
+  <circle cx="50" cy="97.5" r="65" class="orbit" />
+  <circle cx="50" cy="97.5" r="100" class="orbit" />
+  <circle cx="50" cy="97.5" r="140" class="orbit" />
+  <circle cx="50" cy="97.5" r="200" class="orbit" />
+  <circle cx="50" cy="97.5" r="270" class="orbit" />
+  <circle cx="50" cy="97.5" r="340" class="orbit" />
+  <circle cx="50" cy="97.5" r="410" class="orbit" />
+
+  <!-- Asteroid Belt made of scattered dots -->
+  <circle cx="50" cy="97.5" r="170" fill="none" stroke="#babbbd" stroke-width="3" stroke-dasharray="0 12" class="dot"/>
+  <circle cx="50" cy="97.5" r="174" fill="none" stroke="#d1d5da" stroke-width="2" stroke-dasharray="0 18" class="dot" transform="rotate(15 50 97.5)"/>
+  <circle cx="50" cy="97.5" r="166" fill="none" stroke="#959da5" stroke-width="2.5" stroke-dasharray="0 15" class="dot" transform="rotate(-12 50 97.5)"/>
+
+  <!-- The Sun (Layered dots of red, orange, and yellow) -->
+  <g transform="translate(50, 97.5)" class="dot">
+      <circle r="18" fill="none" stroke="#f66a0a" stroke-width="3" stroke-dasharray="0 7"/>
+      <circle r="14" fill="none" stroke="#fb8f24" stroke-width="4" stroke-dasharray="0 8"/>
+      <circle r="10" fill="none" stroke="#f6c344" stroke-width="4" stroke-dasharray="0 7"/>
+      <circle r="6" fill="none" stroke="#fce873" stroke-width="3" stroke-dasharray="0 6"/>
+      <circle r="2" fill="#fff5b1"/>
+  </g>
+
+  <!-- Mercury (Grey dots) -->
+  <g transform="translate(85, 97.5)" class="dot">
+      <circle r="3" fill="none" stroke="#8b949e" stroke-width="2" stroke-dasharray="0 4"/>
+      <circle r="1" fill="#586069"/>
+  </g>
+
+  <!-- Venus (Tan dots) -->
+  <g transform="translate(95.9, 51.5)" class="dot">
+      <circle r="5" fill="none" stroke="#d4a76a" stroke-width="2" stroke-dasharray="0 5"/>
+      <circle r="2" fill="none" stroke="#e8c490" stroke-width="2" stroke-dasharray="0 4"/>
+  </g>
+
+  <!-- Earth (Blue and green dots) -->
+  <g transform="translate(136.6, 147.5)" class="dot">
+      <circle r="6" fill="none" stroke="#2188ff" stroke-width="3" stroke-dasharray="0 5"/>
+      <circle r="3" fill="none" stroke="#34d058" stroke-width="2" stroke-dasharray="0 4"/>
+      <circle r="0.5" fill="#ffffff"/>
+  </g>
+
+  <!-- Mars (Red dots) -->
+  <g transform="translate(178.6, 42.1)" class="dot">
+      <circle r="4" fill="none" stroke="#cb2431" stroke-width="2" stroke-dasharray="0 4"/>
+      <circle r="1.5" fill="#9e1c23"/>
+  </g>
+
+  <!-- Jupiter (Giant brown/orange dots) -->
+  <g transform="translate(237.9, 165.8)" class="dot">
+      <circle r="14" fill="none" stroke="#c29a6b" stroke-width="4" stroke-dasharray="0 7"/>
+      <circle r="10" fill="none" stroke="#87572b" stroke-width="3" stroke-dasharray="0 6"/>
+      <circle r="6" fill="none" stroke="#e0af79" stroke-width="3" stroke-dasharray="0 5"/>
+      <circle r="2" fill="#a87242"/>
+  </g>
+
+  <!-- Saturn (Yellow dots with dotted rings) -->
+  <g transform="translate(306.9, 44.5)" class="dot">
+      <ellipse rx="22" ry="8" fill="none" stroke="#d9a54a" stroke-width="2" stroke-dasharray="0 5" transform="rotate(-20)"/>
+      <ellipse rx="18" ry="6" fill="none" stroke="#e5ba73" stroke-width="1.5" stroke-dasharray="0 4" transform="rotate(-20)"/>
+      <circle r="11" fill="none" stroke="#dfca8e" stroke-width="3" stroke-dasharray="0 6"/>
+      <circle r="7" fill="none" stroke="#b09c5b" stroke-width="3" stroke-dasharray="0 5"/>
+      <circle r="3" fill="#fcf3d9"/>
+  </g>
+
+  <!-- Uranus (Light blue/cyan dots) -->
+  <g transform="translate(378.8, 185.3)" class="dot">
+      <ellipse rx="5" ry="14" fill="none" stroke="#79b8ff" stroke-width="1.5" stroke-dasharray="0 4" transform="rotate(10)"/>
+      <circle r="8" fill="none" stroke="#54a3ff" stroke-width="3" stroke-dasharray="0 5"/>
+      <circle r="4" fill="none" stroke="#2188ff" stroke-width="2" stroke-dasharray="0 4"/>
+  </g>
+
+  <!-- Neptune (Deep blue dots) -->
+  <g transform="translate(456.6, 52.8)" class="dot">
+      <circle r="7" fill="none" stroke="#0366d6" stroke-width="3" stroke-dasharray="0 5"/>
+      <circle r="3" fill="none" stroke="#005cc5" stroke-width="2" stroke-dasharray="0 4"/>
+  </g>
+</svg>
